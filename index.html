@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='style.css'>
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <h1>TIC-TAC-TOE GAME</h1>
+    <div class="container">
+        <div class="name-input-container">
+            <input type="text" id="player1" min="3" max="10">
+            <input type="text" id="player2" min="3" max="10">
+        </div>
+        <div class="roundsplayed"></div>
+        <div class="outside-button-container">
+            <button class="restart-button">Restart game</button>
+            <button class="start-button">Start game</button>
+        </div>
+        <div class='X-O-container'>
+            <button class="xo" id="cell0"></button>
+            <button class="xo" id="cell1"></button>
+            <button class="xo" id="cell2"></button>
+            <button class="xo" id="cell3"></button>
+            <button class="xo" id="cell4"></button>
+            <button class="xo" id="cell5"></button>
+            <button class="xo" id="cell6"></button>
+            <button class="xo" id="cell7"></button>
+            <button class="xo" id="cell8"></button>
+        </div>
+        <div class="current-player-container">
+            <div class="current-turn"></div>
+        </div>
+        <div class="status-container">
+            <div class="status"></div>
+        </div>
+        <div class="scoreboard">
+            <div class="xscore"></div>
+            <div class="oscore"></div>
+        </div>
+    </div>
+</body>
+</html>
